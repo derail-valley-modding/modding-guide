@@ -1,0 +1,45 @@
+site_name: Derail Valley Modding Guide
+site_description: Everthing you need to know about modding Derail Valley
+
+site_url: https://dv-modding-guide.rtfd.io/
+repo_name: insprill/dv-modding-guide
+repo_url: https://github.com/Insprill/dv-modding-guide/
+edit_uri: blob/master/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+  font:
+    text: Inter
+  plugins:
+    - privacy
+  features:
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Contributing: contributing.md
